@@ -49,7 +49,7 @@ export default {
 
 .logo {
     background-color: rgb(117, 117, 117);
-    height: calc(100vh - 300px);
+    height: calc(100vh - 230px);
     background-size: cover;
     background-repeat: no-repeat;
     background-image:url(.././assets/home.svg);
@@ -61,7 +61,7 @@ export default {
     display: flex;
     justify-content: space-evenly;
     max-width: 1000px;
-    margin: -120px auto -51px auto;
+    margin: calc((-100vw / 8) / 1.3) auto calc((-100vw / 8) / 4) auto;
 }
 
 .produto {

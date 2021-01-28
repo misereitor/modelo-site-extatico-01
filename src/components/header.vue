@@ -22,15 +22,15 @@ export default {
 
 <style scoped>
 header {
-    height: 90px;
+    height: 70px;
     background-color: rgb(32, 32, 32);
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     height: inherit;
 }
