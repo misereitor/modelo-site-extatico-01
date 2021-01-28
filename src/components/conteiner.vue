@@ -33,6 +33,21 @@
             <p>Ficamos muitos feliz com sua avaliação, tendo isso em mente, estamos sempre melhorando nosso atendimento!</p>
           </div>
       </div>
+      <div class="dados-loja">
+          <div class="contato">
+              <div class="empresa-foto">
+                  <img src=".././assets/home.svg" alt="Empresa">
+              </div>
+              <div class="dados">
+                <h3>Fale conosco</h3>
+                <p>Endereço: Rua da felicidade N° 100</p>
+                <p>E-mail: example@example.com</p>
+                <p>Telefone: (99)9 9999 999</p>
+                <p>Whatsapp: (99)9 9999 999</p>
+              </div>
+          </div>
+          <div class="local"></div>
+      </div>
   </div>
 </template>
 
@@ -107,5 +122,34 @@ export default {
     text-align: center;
     margin: 0 auto 60px auto;
     max-width: 1000px;
+}
+
+.dados-loja {
+    height: 400px;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato img {
+    width: 300px;
+}
+
+.dados {
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.local {
+    width: 50%;
+    background-color: aliceblue;
 }
 </style>
